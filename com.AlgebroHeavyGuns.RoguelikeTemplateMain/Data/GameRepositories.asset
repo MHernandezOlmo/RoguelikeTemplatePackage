@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3668459550f4b649d779e7d5a4cd3ec, type: 3}
+  m_Name: GameRepositories
+  m_EditorClassIdentifier: 
+  unitStaticDataRepository: {fileID: 11400000, guid: 63333916c209df7458ce9e96fb95396b, type: 2}
+  itemStaticDataRepository: {fileID: 11400000, guid: 875b26d01fde7204c9346408d7858b79, type: 2}
+  skillStaticDataRepository: {fileID: 11400000, guid: 72a5cc38a870ef54e890adab54f627ba, type: 2}
+  mapsStaticRepository: {fileID: 11400000, guid: 2ab24b34f9d5db048b0fc57b0aaecf9f, type: 2}
+  unitGraphicsRepository: {fileID: 11400000, guid: 16de1ae878f2f8b46998dbba587fa1c0, type: 2}
+  itemGraphicsRepository: {fileID: 11400000, guid: 419fb57f24ffa514e85102376f7d6352, type: 2}
+  skillGraphicsRepository: {fileID: 11400000, guid: cd8c990a902839c4db1000d4fe73a814, type: 2}

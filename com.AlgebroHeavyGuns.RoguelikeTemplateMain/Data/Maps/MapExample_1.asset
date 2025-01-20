@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a749ab5efc5f4505bc9ada487d525ce4, type: 3}
+  m_Name: MapExample_1
+  m_EditorClassIdentifier: 
+  forename: Example 1
+  id: example_1
+  nodes:
+  - id: Node_1
+    required: []
+    unlocks: []
+  - id: Node_2
+    required:
+    - Node_1
+    unlocks:
+    - Node_4
+  - id: Node_3
+    required:
+    - Node_1
+    unlocks:
+    - Node_4
+  - id: Node_4
+    required: []
+    unlocks: []
